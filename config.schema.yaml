@@ -2,10 +2,9 @@
   host:
     description: "Hostname or IP address of the Redis instance"
     type: string
-    secret: false
     required: true
   port:
-    description: "Port of the Redis instance"
+    description: "Redis Port"
     type: integer
     default: 6379
     required: true
@@ -15,6 +14,7 @@
     default: 0
     required: true
   password:
-    description: "Password of the Redis instance"
+    description: "Password if authentication required "
     type: string
     required: false
+    secret: true

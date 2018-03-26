@@ -7,5 +7,5 @@ entry_point: del.py
 parameters:
   key:
     type: string
-    description: The key
+    description: The key to delete
     required: true
