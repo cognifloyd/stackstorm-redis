@@ -1,0 +1,12 @@
+---
+name: get
+runner_type: python-script
+description: Get the specified key.
+enabled: true
+entry_point: get.py
+pack: redis
+parameters:
+  key:
+    type: string
+    description: Show the specified key's value
+    required: true
