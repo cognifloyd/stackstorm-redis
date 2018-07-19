@@ -8,4 +8,4 @@ __all__ = [
 class GetRedisAction(BaseRedisAction):
     def run(self, key):
         v = self._client.get(key)
-        return (True,v)
+        return (True, v)
