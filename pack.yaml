@@ -5,6 +5,6 @@ description : Redis key-value actions
 keywords:
   - database
   - redis
-version: 0.0.2
+version: 0.0.3
 author : Antagonist B.V.
 email : systeembeheer@antagonist.nl
